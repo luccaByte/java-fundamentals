@@ -8,6 +8,8 @@ public class Teste {
             logo depois, gera uma variável "cc" q é como se fosse um controle remoto de um televisor, no caso, o objeto Conta
         */
         
+        String nome;
+
         Conta cc = new Conta();
         cc.saldo = 50.0;
         cc.agencia = 0001;
