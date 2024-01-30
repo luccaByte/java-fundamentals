@@ -10,13 +10,13 @@ As regras para que uma classe seja um **JavaBean** são:
 
 Exemplo:
 
-{
+```
     import java.io.Serializable;
 
     public class Conta implements Serializable {
 
     }
-}
+```
 
 O **encapsulamento** é aplicado a métodos e atributos de uma classe e consiste em proteger os dados ou até mesmo escondê-los.
 
