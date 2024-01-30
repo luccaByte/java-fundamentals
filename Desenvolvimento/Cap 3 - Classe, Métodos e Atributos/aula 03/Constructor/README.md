@@ -15,7 +15,7 @@ Os construtores se parecem muito com métodos comuns, mas têm três diferenças
 - Têm o mesmo nome da classe
 - Não têm tipo de retorno (nem mesmo void)
 - Não podem retornar valor no método usando a instrução return
-
+{
     public class Conta {                        <- Classe
 
         double saldo;                           <- Atributos
@@ -28,3 +28,4 @@ Os construtores se parecem muito com métodos comuns, mas têm três diferenças
             saldo = saldo + valor;
         }
     }
+}
