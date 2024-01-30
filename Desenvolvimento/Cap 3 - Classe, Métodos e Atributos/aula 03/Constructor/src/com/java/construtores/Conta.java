@@ -1,16 +1,26 @@
-package br.com.java.banco;
+package com.java.construtores;
 
 public class Conta {
+    private int numero;
+    private double saldo;
 
-    int numero;
-    double saldo; 
-    
-    Cliente cliente = new Cliente();
-
+    // Construtor padrão (construtor xuxu, sem gosto sem nada kk)
     public Conta () {
 
     }
 
+    // podemos criar outro construtor com apenas um parametro
+    public Conta (int numero) {
+        this.numero = numero;
+        this.saldo = 0;
+    }
+
+    // outro exemplo de construtor com 1 parametro
+    public Conta(double saldo) {
+        this.saldo = saldo;
+    }
+
+    // Construtor de classe
     public Conta (int numero, double saldo) {
         this.numero = numero;
         this.saldo = saldo;

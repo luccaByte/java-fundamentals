@@ -16,15 +16,15 @@ Os construtores se parecem muito com métodos comuns, mas têm três diferenças
 - Não têm tipo de retorno (nem mesmo void)
 - Não podem retornar valor no método usando a instrução return
 
-public class Conta {                        <- Classe
+    public class Conta {                        <- Classe
 
-    double saldo;                           <- Atributos
+        double saldo;                           <- Atributos
 
-    public double recuperarSaldo () {       <- Métodos
-        return saldo;
+        public double recuperarSaldo () {       <- Métodos
+            return saldo;
+        }
+
+        public void depositar (double valor) {  <- Métodos
+            saldo = saldo + valor;
+        }
     }
-
-    public void depositar (double valor) {  <- Métodos
-        saldo = saldo + valor;
-    }
-}
