@@ -10,5 +10,3 @@ Duas características diferenciam os métodos com o mesmo nome:
 - o tipo deles
 
 Essas características fazem parte da assinatura de um método.
-
->O uso de vários métodos com o mesmo nome e assinaturas diferentes é chamado de sobrecarga de métodos.
