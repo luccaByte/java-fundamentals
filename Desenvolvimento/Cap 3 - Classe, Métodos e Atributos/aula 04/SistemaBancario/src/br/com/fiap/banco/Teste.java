@@ -7,28 +7,20 @@ public class Teste {
             gera o objeto "Conta" em memoria
             logo depois, gera uma variável "cc" q é como se fosse um controle remoto de um televisor, no caso, o objeto Conta
         */
-        
-        String nome;
 
         Conta cc = new Conta();
-        cc.saldo = 50.0;
-        cc.agencia = 0001;
-        cc.numero = 123456;
+        cc.depositar(50.0);
+        cc.setAgencia(0001);
+        cc.setNumero(123456);
 
         cc.depositar(1000);
 
-        System.out.println("Seu saldo atual é: " + cc.verificarSaldo());
+        System.out.println("Seu saldo atual é: " + cc.getSaldo());
 
         Conta poupanca = new Conta(0002, 1234567, 1000);
         poupanca.retirar(50.60);
         
 
-        System.out.println("Retirar saldo: " + poupanca.verificarSaldo());
-
-        Conta cc2 = null;
-
-        if (cc2 != null) {
-            cc2.depositar(1000);
-        }
+        System.out.println("Retirar saldo: " + poupanca.getSaldo());
     }
 }
