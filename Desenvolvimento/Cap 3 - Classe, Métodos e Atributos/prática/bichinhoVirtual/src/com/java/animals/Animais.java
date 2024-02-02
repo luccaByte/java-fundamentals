@@ -95,7 +95,7 @@ public class Animais {
         this.caloria += 10;
         this.forca -= 2;
 
-        return "O " + nome + "acabou de comer. Agora sua força é de: " + forca + ". E sua caloria vale: " + caloria + ".";
+        return "O " + nome + " acabou de comer. Agora sua força é de: " + forca + ". E sua caloria vale: " + caloria + ".";
     }
 
     public String correr() {
@@ -103,21 +103,21 @@ public class Animais {
         this.forca += 5;
         this.caloria -= 5;
 
-        return "O " + nome + " Está correndo! Perdendo " + caloria + "Calorias e ganhando " + forca + "!";
+        return "O(a) " + nome + " está correndo! Perdendo " + caloria + " calorias e ganhando " + forca + "!";
     }
 
     public String dormir() {
         this.forca += 10;
         this.caloria -= 2;
 
-        return "O " + nome + "Está dormindo. Sua força aumentou e agora vale: " + forca + " e suas calorias valem " + caloria + ".";
+        return "O(a) " + nome + " está dormindo. Sua força aumentou e agora vale: " + forca + " e suas calorias valem " + caloria + ".";
     }
 
     public String morrer() {
         this.forca = 0;
         this.estado = false; 
 
-        return "Seu animal morreu :c";
+        return nome + " morreu :c";
     }
 
     public String nascer() {
