@@ -13,20 +13,16 @@ A **herança** é utilizada como forma de reutilizar os **atributos** e **métod
 ### Exemplo
 
 Sintaxe da superclasse:
-´´´
 
     [public] class [superclasse] {
 
     }
 
-´´´
 
 Sintaxe da subclasse:
-´´´
 
     [public] class [subclasse] extends [superclasse] {
 
     }
-    
-´´´
+
 
