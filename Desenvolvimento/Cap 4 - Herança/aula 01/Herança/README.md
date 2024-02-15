@@ -1,6 +1,6 @@
 ## Herança
 
-A **herança** é utilizada como forma de reutilizar os **atributos** e **métodos** de classes já definidas, permitindo assim derivar uma nova classe masi especializada a partir da outra classe mais gerérica existente.
+A **herança** é utilizada como forma de reutilizar os **atributos** e **métodos** de classes já definidas, permitindo assim derivar uma nova classe mais especializada a partir da outra classe mais genérica existente.
 
 ### Resumo
 
