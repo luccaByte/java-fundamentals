@@ -46,8 +46,6 @@ public class Main {
                     System.out.println("Opção inválida, tente novamente");
                 }
             }
-            
-
         } catch (Exception e) {
             
             System.out.println("Error: " + e.getMessage());

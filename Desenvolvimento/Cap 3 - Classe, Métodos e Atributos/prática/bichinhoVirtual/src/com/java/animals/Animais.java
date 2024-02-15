@@ -12,6 +12,7 @@ public class Animais {
     private Integer caloria;
     private Integer forca;
 
+    // contrutores
     public Animais(String nome, String classe, String familia, Integer idade, Boolean estado, Integer caloria, Integer forca) {
 
         this.nome = nome;
@@ -23,6 +24,7 @@ public class Animais {
         this.forca = forca;
     }
 
+    // contrutores
     public Animais (String nome, String classe, String familia) {
 
         this.nome = nome;
