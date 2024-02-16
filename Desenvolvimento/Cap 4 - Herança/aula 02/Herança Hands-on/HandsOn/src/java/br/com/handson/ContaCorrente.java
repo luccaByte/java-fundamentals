@@ -1,6 +1,5 @@
 package java.br.com.handson;
 
-import java.br.com.sobrescritademetodos.Conta;
 
 public class ContaCorrente extends Conta{
 

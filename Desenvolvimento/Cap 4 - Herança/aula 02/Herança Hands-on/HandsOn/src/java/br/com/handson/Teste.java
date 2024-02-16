@@ -1,8 +1,5 @@
 package java.br.com.handson;
 
-import java.br.com.sobrescritademetodos.Conta;
-import java.br.com.sobrescritademetodos.ContaCorrente;
-
 public class Teste {
 
     public static void main(String[] args) {
