@@ -1,6 +1,4 @@
-package java.br.com.handson;
-
-import java.br.com.sobrescritademetodos.Conta;
+package java.br.com.sobrescritademetodos;
 
 public class ContaCorrente extends Conta{
 
@@ -24,7 +22,12 @@ public class ContaCorrente extends Conta{
     }
 
     public double getSaldoDisponivel () {
-        return super.getSaldo() + chequeEspecial; 
-        // para misturar atributos da superclasse e as subclasses, basta utilizar a palavra reservada super
+        return super.getSaldo() + chequeEspecial;
+    }
+
+    @Override
+    public void retirar (double valor) {
+        valor += 10;
+        super.retirar(valor); // sobrescrita
     }
 }
