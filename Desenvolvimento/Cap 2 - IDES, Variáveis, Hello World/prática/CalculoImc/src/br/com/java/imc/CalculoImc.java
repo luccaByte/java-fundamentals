@@ -23,7 +23,7 @@ public class CalculoImc {
         System.out.println("Agora, digite o seu peso (use vírgula para separar as decimais): ");
         double peso = sc.nextDouble();
 
-        double calculo = peso / (altura * altura);
+        double calculo = peso % (altura * altura);
 
         if (altura > 0 && peso > 0) {
             
