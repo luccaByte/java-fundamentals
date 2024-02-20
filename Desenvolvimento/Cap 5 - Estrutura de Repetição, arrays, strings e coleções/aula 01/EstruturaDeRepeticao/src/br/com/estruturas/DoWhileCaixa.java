@@ -1,4 +1,4 @@
-package java.br.com.estruturas;
+package br.com.estruturas;
 
 public class DoWhileCaixa {
 

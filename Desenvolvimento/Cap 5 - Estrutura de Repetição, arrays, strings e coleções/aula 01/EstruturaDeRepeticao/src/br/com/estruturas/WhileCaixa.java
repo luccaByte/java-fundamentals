@@ -1,4 +1,4 @@
-package java.br.com.estruturas;
+package br.com.estruturas;
 
 public class WhileCaixa {
     public static void main(String[] args) {
