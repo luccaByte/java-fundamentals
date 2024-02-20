@@ -10,7 +10,8 @@ Em um array o **índice** se inicia a partir do 0, ou seja, para acessar o eleme
 
 Existe a possibilidade de recuperar o tamanho do array por meio do atributo **length**:
 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| Primeira Índice |   |   |   |   |   |   |   |  elemento no índice 8 |   |
-<----- O comprimento da matriz é 10 ----->
+
+
+|     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |     :---:      |
+|       0        |       1        |       2        |       3        |       4        |       5        |       6        |       7        |       8        |       9        |
+| Primeira índice|
