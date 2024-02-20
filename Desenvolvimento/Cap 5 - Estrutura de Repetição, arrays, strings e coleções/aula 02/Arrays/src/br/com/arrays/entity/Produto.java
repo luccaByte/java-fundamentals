@@ -1,4 +1,4 @@
-package br.com.arrays;
+package br.com.arrays.entity;
 
 public class Produto {
 

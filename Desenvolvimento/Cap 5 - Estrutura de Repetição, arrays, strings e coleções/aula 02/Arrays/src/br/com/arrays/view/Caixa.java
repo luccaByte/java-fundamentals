@@ -1,4 +1,6 @@
-package br.com.arrays;
+package br.com.arrays.view;
+
+import br.com.arrays.entity.Produto;
 
 public class Caixa {
 
@@ -32,5 +34,15 @@ public class Caixa {
         for (Produto produto : produtos) {
             System.out.println(produto.toString());
         }
+
+        // Arrays multidimencionais
+        // 10 corredores com 3 prateleiras cada
+        Produto[][] localizacaoProduto = new Produto[10][3];
+
+        localizacaoProduto[0][1] = produto1;
+        localizacaoProduto[1][1] = produto2;
+
+        System.out.println("===== ARRAY MULTIDIMENCIONAL ======");
+        System.out.println(localizacaoProduto[0][1].getNome());
     }
 }
