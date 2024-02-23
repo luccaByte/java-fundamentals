@@ -5,6 +5,7 @@ Os objetos strings são imutáveis, isto é, seu conteúdo de caracteres não po
 **Uma string deve ser declarada, instanciada e inicializada.**
 
 Sintaxe:
+
     String nome = new String();
     nome = "nome da string";
 
