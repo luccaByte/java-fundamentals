@@ -13,3 +13,6 @@ ou:
 
     String nome = new String("nome da string");
 
+Também é possível atribuir um valor à string sem instaciá-la.
+
+    String nome = "nome da string";
