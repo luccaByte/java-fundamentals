@@ -14,18 +14,18 @@ public class ExercicioTres {
 
         System.out.println("=== Média dos números flutuantes (Array) ===");
 
-        double array[] = new double[6];
-        float total = 0;
+        double array[] = new double[5];
+        double total = 0;
 
-        for (int i = 1; i < array.length; i++) {
-            System.out.println("Digite o " + i + "º número flutuante: ");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Digite o " + (i + 1) + "º número flutuante: ");
             array[i] = sc.nextDouble();
 
             total += array[i];
         }
         
         
-        float media = total / array.length;
+        double media = total / array.length;
 
         System.out.println("Processando. . .");
 
