@@ -91,4 +91,65 @@ Exemplo:
 
 Resultado: ``[Java, Angular, React]``
 
-###
+### Map
+
+Um mapa é composto por um par de **chave** e **valor**. As chaves não podem conter valores iguais, porém o valor sim. A principal implementação de ``Map`` é a classe ``HashMap``.
+
+Principais definições da interface ``Map`` são:
+
+| método | descrição |
+| ------ | --------- |
+| **clear** | remove todos os objetos mapeados |
+| **containsKey** | verifica se uma chave já está presente no mapeamento |
+| **containsValue** | verifica se um valor já está presente no mapeamento |
+| **get** | retorna um valor associado à uma chave determinada |
+| **isEmpty** | verifica se o mapeamento está vazio |
+| **keySet** | retorna um set contendo as chaves |
+| **put** | adiciona um mapeamento |
+| **remove** | remove um mapeamento |
+| **size** | retorna o número de mapeamentos |
+| **values** | retorna uma coleção com todos os valores mapeados neste Map |
+
+Exemplo do método ``put``:
+
+    HashMap mapa = new HashMap();
+
+    mapa.put("RM1234", "Thiago");
+    mapa.put("RM4321", "João");
+
+    System.out.println(mapa);
+
+Retornando: ``{RM4321=João, RM1234=Thiago}``
+
+Exemplificando o método ``get``:
+
+    System.out.println(mapa.get("RM1234"));
+
+Exemplo do método ``remove``:
+
+    HashMap mapa = new HashMap();
+
+    mapa.put("RM1234", "Thiago");
+    mapa.put("RM4321", "João");
+
+    mapa.remove("RM1234"); // remove um elemento
+
+    System.out.println(mapa.get("RM1234"));
+
+### Generics
+
+Podemos utilizar o recurso de **Generics** para restringir os tipos de dados aceitos por referência genérica. Dessa forma, somente o tipo determinado no **Generic** será permitido inserir na lista, e não qualquer objeto.
+
+O **Generic** permite a verificação do tipo em tempo de compilação e deixa o código mais limpo, pois não é necessário realizar um cast.
+
+Sintaxe:
+
+    ArrayList<Tipo> lista = new ArrayList<Tipo>();
+
+*Ao lado do ArrayList temos um **< >** e dentro dele, determinamos o tipo que a lista poderá armazenar.*
+
+Exemplo:
+
+    ArrayList<String> carrinho = new ArrayList<String>();
+
+*Essa ArrayList poderá armazenar somente objetos do tipo **string**.*
