@@ -1,2 +1,3 @@
 # Java-Fundamentals
-Repositório exclusivo para o curso de fundamentos java da FIAP.
+
+Repositório para o curso de fundamentos java da FIAP.

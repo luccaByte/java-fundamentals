@@ -1,8 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Desenvolvimento/Cap 3 - Classe, Métodos e Atributos/prática/bichinhoVirtual/src/com/java/animals",
         "Desenvolvimento/Cap 2 - IDES, Variáveis, Hello World DP/prática/CalculoImc/src/br/com/java/imc",
         "Desenvolvimento/Cap 2 - IDES, Variáveis, Hello World DP/aula 09/FluxoControle/src",
         "Desenvolvimento/Cap 2 - IDES, Variáveis, Hello World DP/aula 09/FluxoControle",
-        "Desenvolvimento/Cap 3 - Classe, Métodos e Atributos/prática/bichinhoVirtual/src/com/java/animals"
     ]
 }
