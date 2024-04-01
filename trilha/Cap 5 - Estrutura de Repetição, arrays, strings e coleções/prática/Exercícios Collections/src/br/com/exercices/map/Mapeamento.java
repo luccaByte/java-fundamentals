@@ -27,6 +27,7 @@ public class Mapeamento {
             map.put(nome, idade);
         }
 
+        System.out.println("\nDados fornecidos:");
         System.out.println(map);
 
         sc.close();
