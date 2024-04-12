@@ -15,3 +15,9 @@ O fluxo de tratamento de exceções no Java ocorre em 3 passos:
 - **Uma exceção é lançada**: um comando do código dispara uma condição inesperada de erro
 - **A exceção é capturada**: em algum ponto do código, podemos adicionar um comando para capturar a possível exceção
 - **O tratamento de erro é realizado**: após a captura da exceção, o tratamento de erro adequado é executado
+
+Dentro da plataforma Java, podemos classificar as exceções em:
+
+- **Checked**: exceção que deve ser tratada ou relançada pelo desenvolvedor.
+- **Unchecked**: exceção que pode ser tratada ou relançada pelo programador. Se a exceção não for tratada, ela será automaticamente relançada.
+- **Error**: erro crítico, utilizado pela JVM para iniciar que existe um problema que não permite a execução do programa continuar
