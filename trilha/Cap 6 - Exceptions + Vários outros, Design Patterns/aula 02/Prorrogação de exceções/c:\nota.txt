@@ -1,0 +1,3 @@
+Maça = R$ 4,00
+Morango = R$ 6,50
+Total = R$ 10,50
