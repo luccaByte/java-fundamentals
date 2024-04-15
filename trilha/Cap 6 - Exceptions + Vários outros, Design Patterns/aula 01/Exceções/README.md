@@ -31,3 +31,44 @@ Dentro da plataforma Java, podemos classificar as exceções em:
 | Error | Erro que não pode ser tratado no aplicativo. Lançado pelo JVM indicando que o programa não pode continuar a execução | **OutOfMemoryError**: indica que não há memória suficiente na máquina para continuar a execução do programa |
 | Exception | Exceção que deve ser tratada pelo desenvolvedor. | **ArithmeticException**: indica que houve alguma operação aritmética inválida, por ex: divisão por zero. |
 | RuntimeException | Exceção que pode ser tratada pelo desenvolvedor. | **NullPointerException**: indica que há alguma indicativa de acessar algum atributo de uma classe que não foi instanciada |
+
+---
+
+### Estrutura 
+
+- try-catch
+- try-catch-finally
+
+Exemplo:
+```java
+    try{
+    //Código
+    }catch(Exceção){
+    //Tratamento da exceção
+    }
+```
+
+```java
+    try{
+    //Código
+    }catch(Exceção 1){
+    //Tratamento da exceção 1
+    }catch(Exceção 2){
+    //Tratamento da exceção 2
+    }catch(Exceção 3){
+    //Tratamento da exceção 3
+    }
+```
+
+Outro exemplo:
+
+```java
+    try {
+    //Fluxo normal que pode gerar uma exceção
+    } catch (Exception e) {
+    //Fluxo alternativo, para tratamento da exceção
+    } finally{
+    //Fluxo normal,que sempre será executado
+    }
+```
+*O bloco finally não é obrigatório e quando usado deve sempre ser colocado no final do ultimo catch*
