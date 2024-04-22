@@ -9,7 +9,7 @@ public class TestException {
 
     public static void main(String[] args) throws IOException {
         
-        FileWriter fw = new FileWriter("c:\\nota.txt");
+        FileWriter fw = new FileWriter("nota.txt");
 
         PrintWriter print = new PrintWriter(fw);
         print.println("Maça = R$ 4,00");
