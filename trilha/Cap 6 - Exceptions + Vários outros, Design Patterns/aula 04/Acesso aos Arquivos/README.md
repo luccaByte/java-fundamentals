@@ -10,3 +10,25 @@ As classes para manipular os arquivos ficam dentro do pacote **java.io**. Duas c
 
 - **java.io.FileWriter**
 - **java.io.PrintWriter**
+
+Exemplo:
+
+```java
+public static void main(String[] args) {
+  try {
+    //Abre o arquivo
+    FileWriter stream = new FileWriter("arquivo.txt");
+    PrintWriter print = new PrintWriter(stream);
+    
+    //Escreve no arquivo
+    print.println("Teste");
+    print.println("Escrevendo no arquivo");
+    
+    print.close();
+    //Fecha o arquivo
+    stream.close();
+  } catch (IOException e) {
+    e.printStackTrace();
+  }
+}
+```
