@@ -1,6 +1,7 @@
 package br.com.banco.entity;
 
-public class ContaPoupanca extends Conta {
+// conta poupança n irá possuir nenhuma subclasse
+public final class ContaPoupanca extends Conta {
 
     @Override
     public double verificarSaldo() {
