@@ -2,15 +2,18 @@ package br.com.entity;
 
 import br.com.exception.SaldoInsuficienteException;
 
-public class ContaCorrenteEspecial extends ContaCorrente {
+public abstract class Conta {
 
-    private double limite;
+    protected double saldo;
 
     public void sacar(double valor) throws SaldoInsuficienteException {
-
-        if (valor > saldo + limite) {
+        
+        if (valor > saldo) {
             throw new SaldoInsuficienteException();
         }
+
         saldo -= valor;
     }
+    
+    public abstract double verificarSaldo();
 }

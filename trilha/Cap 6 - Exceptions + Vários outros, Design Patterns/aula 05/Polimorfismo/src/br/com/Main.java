@@ -1,14 +1,14 @@
 package br.com;
 
+import br.com.entity.Conta;
 import br.com.entity.ContaCorrente;
-import br.com.entity.ContaCorrenteEspecial;
 import br.com.exception.SaldoInsuficienteException;
 
 public class Main {
 
     public static void main(String[] args) {
         
-        ContaCorrente conta = new ContaCorrenteEspecial();
+        Conta conta = new ContaCorrente();
 
         // a exceção é lançada pois não há saldo 
         try {
