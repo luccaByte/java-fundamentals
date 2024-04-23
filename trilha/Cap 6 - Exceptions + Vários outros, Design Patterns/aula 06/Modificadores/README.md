@@ -11,15 +11,7 @@ O modificador "static" pode ser aplicado aos membros de uma classe:
 
 Um atributo ou método **estático** são compartilhados por todas as **instâncias** de uma determinada **classe**.
 
-### Classe abstrata
-
-Uma classe abstrata possui algumas características como:
-
-- Não pode ser instanciada
-- **Pode** possuir métodos abstratos
-
 ```
-    A primeira característica é que uma classe abstrata não pode ser instanciada, ou seja, não podemos utilizar o operador **new**. Dessa forma, nunca vamos ter uma instancia de uma classe abstrata dentro da nossa aplicação.
+Quando um atributo é declarado como estático, ele passa a se referir a Classe e não à instância da Classe, ou seja, o atributo será igual para todos os objetos, independentemente dos respectivos números de instâncias
 ```
 
-O  propósito  de  uma  classe  abstrata  é  atuar  como  uma  **superclasse**.  É  uma classe  que  existe  para  ser  herdada.  Dessa forma,  ela  será  a  base  para  as  outras classes que serão des
